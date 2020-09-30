@@ -19,9 +19,11 @@ public class Driver {
 	private String lastName;
 	private String address;
 	private Vehicle vehicle;
+	private Boolean available;
 
 	public Driver() {
 		super();
+		this.available=true;
 		// TODO Auto-generated constructor stub
 	}
 
@@ -31,6 +33,7 @@ public class Driver {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.address = address;
+		this.available=true;
 		// this.vehicle = vehicle;
 	}
 
